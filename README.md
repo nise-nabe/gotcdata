@@ -32,7 +32,7 @@ func main() {
     os.Exit(1)
   }
 
-  for _, coder := range coderList {
+  for _, coder := range coderList.Coders {
     fmt.Println(coder.Handle, ":", coder.AlgRating)
   }
 }
